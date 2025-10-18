@@ -1,0 +1,14 @@
+
+
+# LEF File for Accumulated Process Antenna Effects at the Boundary Pins
+# *********************************************************************
+
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+
+MACRO kogge_stone_adder 
+END kogge_stone_adder
+
+END LIBRARY
