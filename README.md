@@ -125,7 +125,7 @@ This associative operator enables parallel prefix computation across all bit pos
 
 | 180nm Technology | 90nm Technology |
 |:----------------:|:---------------:|
-| ![180nm Schematic](./images/schematic_180nm.png) | ![90nm Schematic](./images/schematic_90nm.png) |
+| ![180nm Schematic](./images/genus_schematic.png) | ![90nm Schematic](./images/genus_schematic_90.png) |
 
 </div>
 
@@ -133,18 +133,14 @@ This associative operator enables parallel prefix computation across all bit pos
 
 #### 180nm Implementation
 
-![180nm Layout](./images/layout_180nm.png)
+![180nm Layout](./images/layout_180.png)
 *Complete routed layout with 2D and 3D views*
 
 #### 90nm Implementation
 
-![90nm Layout](./images/layout_90nm.png)
+![90nm Layout](./images/layout_90.png)
 *Optimized layout showing improved density and routing*
 
-### Design Flow Visualization
-
-![Design Flow](./images/design_flow.png)
-*Complete RTL-to-GDSII flow using Cadence tools*
 
 ---
 
