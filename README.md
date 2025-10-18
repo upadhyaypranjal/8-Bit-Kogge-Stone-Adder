@@ -220,10 +220,7 @@ This associative operator enables parallel prefix computation across all bit pos
 ### Course Information
 
 - **Course**: VLSI System Design (EC-307)
-- **Institution**: Indian Institute of Information Technology Design and Manufacturing, Kurnool
-- **Faculty**: Dr. P. Ranga Babu
-- **Student**: Pranjal Upadhyay (Roll No: 523EC0012)
-- **Program**: Integrated B. Tech and M. Tech, ECE
+- **Faculty**: Dr. P. Ranga Babu, Department of ECE - IIITDM Kurnool
 - **Date**: October 18, 2025
 
 ### Learning Outcomes
@@ -312,7 +309,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Pranjal Upadhyay**  
 Roll No: **523EC0012**
 
-Department of Electronics and Communication Engineering
+Department of Electronics and Communication Engineering,
 Integrated B.Tech and M.Tech Program
 
 **Indian Institute of Information Technology Design and Manufacturing, Kurnool**
