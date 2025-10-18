@@ -137,6 +137,7 @@ This associative operator enables parallel prefix computation across all bit pos
 #### 180nm Implementation
 
 ![180nm Layout](./images/layout_180.png)
+![180nm Layout](./images/layout_180_3d.png)
 *Complete routed layout with 2D and 3D views*
 
 #### 90nm Implementation
@@ -331,9 +332,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Pranjal Upadhyay**
 
-- 📧 Email: (pranjal2004upadhyay@gmail.com)
-- 💼 LinkedIn: (https://www.linkedin.com/in/pranjalupadhyay0142)
-- 🐱 GitHub: (https://github.com/upadhyaypranjal)
+- 📧 Email: pranjal2004upadhyay@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/pranjalupadhyay0142
+- 🐱 GitHub: https://github.com/upadhyaypranjal
 
 ---
 
