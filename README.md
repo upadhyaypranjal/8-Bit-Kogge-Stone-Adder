@@ -1,4 +1,8 @@
+<div align="center">
+
 # ⚡ 8-Bit Kogge-Stone Adder: RTL to GDSII
+
+</div>
 
 <div align="center">
 
@@ -126,7 +130,7 @@ This associative operator enables parallel prefix computation across all bit pos
 
 | 180nm Technology | 90nm Technology |
 |:----------------:|:---------------:|
-| ![180nm Schematic](./images/genus_schematic_180nm.png) | ![90nm Schematic](./images/genus_schematic_90.png) |
+| ![180nm Schematic](./images/genus_schematic.png) | ![90nm Schematic](./images/genus_schematic_90.png) |
 
 </div>
 
