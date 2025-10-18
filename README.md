@@ -286,8 +286,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Pranjal Upadhyay**
 
-- 📧 Email:mailto:pranjal2004upadhyay@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/pranjalupadhyay0142?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRWT0cykYQBqMGuHeDdVRxg%3D%3D
+- 📧 Email: pranjal2004upadhyay@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/pranjalupadhyay0142
 - 🐱 GitHub: https://github.com/upadhyaypranjal
 
 ---
@@ -302,6 +302,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
+
+---
+
+<div align="center">
+
+## 👨‍🎓 About the Author
+
+**Pranjal Upadhyay**  
+Roll No: **523EC0012**
+
+Department of Electronics and Communication Engineering
+Integrated B.Tech and M.Tech Program
+
+**Indian Institute of Information Technology Design and Manufacturing, Kurnool**
+
+---
+
+</div>
 
 ### ⭐ Star this repository if you found it helpful!
 
