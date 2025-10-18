@@ -66,9 +66,8 @@ The Kogge-Stone Adder operates in three distinct stages:
          │  OVERFLOW       │
          └─────────────────┘
 
-![Simulation Waveforms](./images/arch.png)
-
 ```
+![Simulation Waveforms](./images/arch.png)
 
 ### Prefix Operator
 
@@ -138,6 +137,7 @@ This associative operator enables parallel prefix computation across all bit pos
 
 ![180nm Layout](./images/layout_180.png)
 ![180nm Layout](./images/layout_180_3d.png)
+
 *Complete routed layout with 2D and 3D views*
 
 #### 90nm Implementation
