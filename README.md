@@ -116,7 +116,7 @@ This associative operator enables parallel prefix computation across all bit pos
 
 ### RTL Simulation Waveforms
 
-![Simulation Waveforms](./images/simulation_waveforms.png)
+![Simulation Waveforms]()
 *Functional verification showing correct addition and overflow detection*
 
 ### Gate-Level Schematic
@@ -332,9 +332,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Pranjal Upadhyay**
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐱 GitHub: [@upadhyaypranjal](https://github.com/upadhyaypranjal)
+- 📧 Email: (pranjal2004upadhyay@gmail.com)
+- 💼 LinkedIn: (https://www.linkedin.com/in/pranjalupadhyay0142)
+- 🐱 GitHub: (https://github.com/upadhyaypranjal)
 
 ---
 
