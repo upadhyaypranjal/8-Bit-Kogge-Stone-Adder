@@ -1,4 +1,3 @@
-<div align="center">
 # ⚡ 8-Bit Kogge-Stone Adder: RTL to GDSII
 
 <div align="center">
