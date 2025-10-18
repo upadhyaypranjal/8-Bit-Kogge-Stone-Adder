@@ -143,6 +143,7 @@ This associative operator enables parallel prefix computation across all bit pos
 #### 90nm Implementation
 
 ![90nm Layout](./images/layout_90.png)
+
 *Optimized layout showing improved density and routing*
 
 
