@@ -1,6 +1,7 @@
 <div align="center">
-
 # ⚡ 8-Bit Kogge-Stone Adder: RTL to GDSII
+
+<div align="center">
 
 ![VLSI](https://img.shields.io/badge/VLSI-System%20Design-blue?style=for-the-badge)
 ![Technology](https://img.shields.io/badge/Tech-90nm%20%7C%20180nm-green?style=for-the-badge)
@@ -9,7 +10,7 @@
 
 **A high-performance parallel prefix adder implementing complete ASIC design flow**
 
-[Overview](#-overview) • [Architecture](#-architecture) • [Results](#-results) • [Repository Structure](#-repository-structure) • [Getting Started](#-getting-started)
+[Overview](#-overview) • [Architecture](#-architecture) • [Results](#-results) • [Getting Started](#-getting-started) • [Documentation](#-documentation)
 
 ---
 
@@ -66,6 +67,7 @@ The Kogge-Stone Adder operates in three distinct stages:
          │  OVERFLOW       │
          └─────────────────┘
 ```
+![Simulation Waveforms](./images/arch.png)
 
 ### Prefix Operator
 
@@ -116,44 +118,35 @@ This associative operator enables parallel prefix computation across all bit pos
 
 ### RTL Simulation Waveforms
 
-![Simulation Waveforms](./Simulation/sim.png)
+![Simulation Waveforms](./images/waveforms.png)
 *Functional verification showing correct addition and overflow detection*
 
-### Gate-Level Schematics
+### Gate-Level Schematic
 
 <div align="center">
 
 | 180nm Technology | 90nm Technology |
 |:----------------:|:---------------:|
-| ![180nm Schematic](./180nm/schematic_180nm.png) | ![90nm Schematic](./90nm/schematic_90nm.png) |
+| ![180nm Schematic](./images/genus_schematic_180nm.png) | ![90nm Schematic](./images/genus_schematic_90.png) |
 
 </div>
 
-### Physical Layouts
+### Physical Layout
 
 #### 180nm Implementation
 
-<div align="center">
+![180nm Layout](./images/layout_180.png)
+![180nm Layout](./images/layout_180_3d.png)
 
-| Floorplan | Layout |
-|:---------:|:------:|
-| ![180nm Floorplan](./180nm/floorplan_180nm.png) | ![180nm Layout](./180nm/layout_180nm.png) |
-
-</div>
+*Complete routed layout with 2D and 3D views*
 
 #### 90nm Implementation
 
-<div align="center">
+![90nm Layout](./images/layout_90.png)
 
-| Layout 2D | Layout 3D |
-|:---------:|:---------:|
-| ![90nm Layout 2D](./90nm/layout_90nm_2d.png) | ![90nm Layout 3D](./90nm/layout_90nm_3d.png) |
-
-</div>
+*Optimized layout showing improved density and routing*
 
 ---
-
-
 
 ## 🚀 Getting Started
 
@@ -161,8 +154,8 @@ This associative operator enables parallel prefix computation across all bit pos
 
 ```bash
 # Required Tools
-- Xilinx Vivado (for RTL simulation)
-- Cadence Genus (for logic synthesis)
+- Xilinx Vivado (for simulation)
+- Cadence Genus (for synthesis)
 - Cadence Innovus (for place & route)
 - 90nm/180nm CMOS standard cell libraries
 ```
@@ -177,23 +170,24 @@ This associative operator enables parallel prefix computation across all bit pos
 
 2. **Run RTL Simulation**
    ```bash
-   cd RTL
-   # Open in Vivado or use your preferred simulator
-   iverilog -o sim kogge_stone_adder.v tb_kogge_stone_adder.v
-   vvp sim
+   cd rtl
+   # Open Vivado and source the simulation script
+   vivado -mode batch -source sim_kogge_stone.tcl
    ```
 
-3. **Synthesize the Design (90nm)**
+3. **Synthesize the Design**
    ```bash
-   cd 90nm/Synthesis
+   cd synthesis
    genus -f run_synthesis.tcl
    ```
 
-4. **Run Place & Route (90nm)**
+4. **Run Place & Route**
    ```bash
-   cd 90nm/PnR
+   cd pnr
    innovus -init run_innovus.tcl
    ```
+
+---
 
 ---
 
@@ -287,17 +281,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-<div align="center">
-
 **Pranjal Upadhyay**
 
-📧 [pranjal2004upadhyay@gmail.com](mailto:pranjal2004upadhyay@gmail.com)
-
-💼 [LinkedIn](https://www.linkedin.com/in/pranjalupadhyay0142)
-
-🐱 [GitHub](https://github.com/upadhyaypranjal)
-
-</div>
+- 📧 Email:mailto:pranjal2004upadhyay@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/pranjalupadhyay0142?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRWT0cykYQBqMGuHeDdVRxg%3D%3D
+- 🐱 GitHub: https://github.com/upadhyaypranjal
 
 ---
 
