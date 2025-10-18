@@ -107,7 +107,19 @@ This associative operator enables parallel prefix computation across all bit pos
 ║  Technology     : 90nm CMOS              ║
 ╚══════════════════════════════════════════╝
 ```
-
+### Post-Layout Metrics (180nm)
+```
+╔══════════════════════════════════════════╗
+║        DESIGN SUMMARY - 180nm            ║
+╠══════════════════════════════════════════╣
+║  Die Area       : 1881.9 μm²             ║
+║  Die Dimensions : 44.22 x 42.56 μm²      ║
+║  Core Area      : 652.00 μm² (synth)     ║
+║  Maximum Delay  : TBD ns (post-layout)   ║
+║  Total Power    : 85.8 μW                ║
+║  Technology     : 180nm CMOS             ║
+╚══════════════════════════════════════════╝
+```
 ### Synthesis Results (90nm)
 
 - ✅ **Timing Clean**: All paths meet timing constraints
