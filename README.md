@@ -66,7 +66,7 @@ The Kogge-Stone Adder operates in three distinct stages:
          │  OVERFLOW       │
          └─────────────────┘
 
-![Simulation Waveforms](.images/arch.png)
+![Simulation Waveforms](./images/arch.png)
 
 ```
 
@@ -119,7 +119,7 @@ This associative operator enables parallel prefix computation across all bit pos
 
 ### RTL Simulation Waveforms
 
-![Simulation Waveforms](.images/waveforms.png)
+![Simulation Waveforms](./images/waveforms.png)
 *Functional verification showing correct addition and overflow detection*
 
 ### Gate-Level Schematic
