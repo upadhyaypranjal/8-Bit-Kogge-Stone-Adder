@@ -332,7 +332,6 @@ Integrated B.Tech and M.Tech Program
 
 ### ⭐ Star this repository if you found it helpful!
 
-**Made with ❤️ for VLSI enthusiasts**
 
 [![GitHub stars](https://img.shields.io/github/stars/upadhyaypranjal/8-Bit-Kogge-Stone-Adder?style=social)](https://github.com/upadhyaypranjal/8-Bit-Kogge-Stone-Adder/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/upadhyaypranjal/8-Bit-Kogge-Stone-Adder?style=social)](https://github.com/upadhyaypranjal/8-Bit-Kogge-Stone-Adder/network/members)
